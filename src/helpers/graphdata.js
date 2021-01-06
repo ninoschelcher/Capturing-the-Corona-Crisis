@@ -1,6 +1,6 @@
 export const branchedata = [
     {
-      branche: "DIY/Garden",
+      branche: "DIY & Garden",
       stijging: 71,
     },
     {
@@ -16,7 +16,7 @@ export const branchedata = [
       stijging: 53,
     },
     {
-      branche: "Food/Nearfood",
+      branche: "Food & Nearfood",
       stijging: 46,
     },
   ];

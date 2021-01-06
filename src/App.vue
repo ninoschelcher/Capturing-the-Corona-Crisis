@@ -1,23 +1,23 @@
 <template>
-  <!-- <LineChart />
+  <LineChart />
   <CircularChart />
-  <Intro /> -->
-  <!-- <SorteerCentrum /> -->
+  <Intro />
+  <SorteerCentrum />
   <DozenStapel />
-  <!-- <BestelBusje /> -->
+  <BestelBusje />
 </template>
 
 <script>
 import DozenStapel from "./components/DozenStapel.vue";
-// import CircularChart from "./components/CircularChart.vue";
-// import LineChart from "./components/LineChart.vue";
+import CircularChart from "./components/CircularChart.vue";
+import LineChart from "./components/LineChart.vue";
 
 export default {
   name: "App",
   components: {
     DozenStapel,
-    // CircularChart,
-    // LineChart,
+    CircularChart,
+    LineChart,
   },
 };
 </script>

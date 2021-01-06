@@ -8,12 +8,10 @@ import { omzetdata } from "../helpers/graphdata.js";
 export default {
   name: "LineChart",
   mounted() {
-    const margin = { top: 20, right: 20, bottom: 30, left: 50 },
-      width = 960 - margin.left - margin.right,
-      height = 500 - margin.top - margin.bottom;
-
+    const margin = { top: 20, right: 20, bottom: 30, left: 50 };
+    const width = 960 - margin.left - margin.right;
+    const height = 500 - margin.top - margin.bottom;
     const parseTime = d3.timeParse("%d-%m-%Y");
-
     const x = d3.scaleTime().range([0, width]);
     const y = d3.scaleLinear().range([height, 0]);
 
@@ -58,7 +56,7 @@ export default {
       .attr("class", "line")
       .attr("d", valueline);
 
-    var totalLength = line.node().getTotalLength();
+    const totalLength = line.node().getTotalLength();
 
     line
       .attr("stroke-dasharray", totalLength)
@@ -80,7 +78,15 @@ export default {
 <style>
 .line {
   fill: none;
-  stroke: steelblue;
+  stroke: #454751;
   stroke-width: 2px;
+}
+
+text {
+  font-family: "Mont Light";
+}
+
+path {
+  color: grey;
 }
 </style>
