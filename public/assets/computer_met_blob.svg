@@ -1,0 +1,61 @@
+<svg id="Layer_1" data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1542 601.42">
+    <defs>
+        <linearGradient id="linear-gradient" x1="3.2" y1="1077.26" x2="2.46" y2="1076.68" gradientTransform="matrix(276.75, 0, 0, -100.74, 288.22, 109165.4)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#9ef7fe"/>
+            <stop offset="0.6" stop-color="#76b6fb"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="-36.91" y1="1069.74" x2="-36.91" y2="1068.74" gradientTransform="matrix(-8.23, -11.33, -11.33, 8.23, 12978.52, -8904.44)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#9ef7fe"/>
+            <stop offset="0.88" stop-color="#76b6fb"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-3" x1="-36.91" y1="1069.74" x2="-36.91" y2="1068.74" gradientTransform="matrix(-8.23, -11.33, -11.33, 8.23, 12941.52, -8939.44)" xlink:href="#linear-gradient-2"/>
+        <linearGradient id="linear-gradient-4" x1="-52.27" y1="1065.23" x2="-52.27" y2="1064.23" gradientTransform="matrix(-5.88, -8.09, -8.09, 5.88, 9144.4, -6393.85)" xlink:href="#linear-gradient-2"/>
+        <linearGradient id="linear-gradient-5" x1="-52.27" y1="1065.23" x2="-52.27" y2="1064.23" gradientTransform="matrix(-5.88, -8.09, -8.09, 5.88, 9207.4, -6294.85)" xlink:href="#linear-gradient-2"/>
+        <linearGradient id="linear-gradient-6" x1="-24.1" y1="1073.49" x2="-24.1" y2="1072.49" gradientTransform="matrix(-12.35, -16.99, -16.99, 12.35, 18790.79, -13388.39)" xlink:href="#linear-gradient-2"/>
+        <linearGradient id="linear-gradient-7" x1="-96.94" y1="1092.66" x2="-96.94" y2="1091.66" gradientTransform="matrix(3.28, -20.74, -20.74, -3.28, 24115.76, 1920.5)" xlink:href="#linear-gradient-2"/>
+    </defs>
+    <path id="Path_85" data-name="Path 85" d="M1095.58,614.54c46.53,16.41,210-15.24,187.83,38.34s-61.79,31.84-108.15,49.71-166.55,10.46-166.55-21.53S1049.06,598.12,1095.58,614.54Z" transform="translate(-152.65 -330.03)" style="fill:url(#linear-gradient)"/>
+    <circle id="Ellipse_19" data-name="Ellipse 19" cx="1172.17" cy="315.52" r="7" style="fill:url(#linear-gradient-2)"/>
+    <circle id="Ellipse_18" data-name="Ellipse 18" cx="1135.17" cy="280.52" r="7" style="fill:url(#linear-gradient-3)"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="838.08" cy="289.63" r="5" style="fill:url(#linear-gradient-4)"/>
+    <circle id="Ellipse_15" data-name="Ellipse 15" cx="901.08" cy="388.63" r="5" style="fill:url(#linear-gradient-5)"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="859.4" cy="270.41" r="10.5" style="fill:url(#linear-gradient-6)"/>
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="1141.4" cy="347.41" r="10.5" style="fill:url(#linear-gradient-7)"/>
+    <path d="M1015.71,332H1398.8a21.85,21.85,0,0,1,21.85,21.85V545.31" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"/>
+    <line x1="826.63" y1="2" x2="845.5" y2="2" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"/>
+    <path d="M870.57,587.39V353.88A21.85,21.85,0,0,1,892.42,332h66.89" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"/>
+    <path d="M1420.65,579.3V730.36a21.85,21.85,0,0,1-21.85,21.85H892.42a21.86,21.86,0,0,1-21.85-21.85V619.72" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"/>
+    <path d="M1216.41,733H896.88a5.76,5.76,0,0,1-5.76-5.76V359.66a5.76,5.76,0,0,1,5.76-5.76h497.46a5.76,5.76,0,0,1,5.76,5.76v47.26" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"/>
+    <path d="M1400.1,444.5V727.23a5.76,5.76,0,0,1-5.76,5.76H1241" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"/>
+    <path d="M1205.81,430.62a70.79,70.79,0,1,1-10.54-9.66" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"/>
+    <line x1="978.41" y1="215.29" x2="978.41" y2="236.91" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px"/>
+    <line x1="1017.74" y1="216.54" x2="1017.74" y2="236.91" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px"/>
+    <rect x="955.85" y="237.27" width="83.51" height="15.91" rx="4.53" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px"/>
+    <path d="M1192,477.83a40.37,40.37,0,1,1-21.15-35.55" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px"/>
+    <path d="M1181.94,451a18.18,18.18,0,0,1,7.41,11.56" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px"/>
+    <circle cx="999.26" cy="147.47" r="16.9"/>
+    <path d="M1178,411.48a25.84,25.84,0,0,1-1.93,7.83,10.84,10.84,0,0,1-10,6.35h-30.69s-7.11,0-9.15-4.85c-1-2.31-2.29-4.83-1.57-8" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px"/>
+    <path d="M1055.69,754.21s-1.21,51-62.18,96.1" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"/>
+    <path d="M1211.61,754.79s1.21,51,62.18,96.1" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"/>
+    <rect x="824.63" y="296.92" width="338" height="63.62" rx="2.67" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px"/>
+    <line x1="856.06" y1="254.5" x2="860.77" y2="254.5" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px"/>
+    <line x1="871.92" y1="254.5" x2="894.14" y2="254.5" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px"/>
+    <line x1="904.04" y1="254.5" x2="1068.95" y2="254.5" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px"/>
+    <line x1="1093.07" y1="254.5" x2="1111.36" y2="254.5" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px"/>
+    <line x1="1107.64" y1="263.12" x2="1054.29" y2="263.12" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px"/>
+    <line x1="1035.96" y1="263.12" x2="1022.92" y2="263.12" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px"/>
+    <line x1="924.07" y1="263.12" x2="888.91" y2="263.12" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px"/>
+    <path d="M1129.93,424.66" transform="translate(-152.65 -330.03)" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px"/>
+    <text transform="translate(935.53 344.29)" style="font-size:45px;font-family:SofiaPro-Medium, Sofia Pro;font-weight:500">Be
+        <tspan x="53.64" y="0" style="letter-spacing:-0.0009982638888888888em">s</tspan>
+        <tspan x="73.48" y="0" style="letter-spacing:-0.010004340277777777em">t</tspan>
+        <tspan x="87.88" y="0">el</tspan>
+    </text>
+    <line id="Line_1" data-name="Line 1" x1="183" y1="521.42" x2="1540" y2="521.42" style="fill:none;stroke:#000;stroke-linecap:round;stroke-width:4px"/>
+    <line id="Line_2" data-name="Line 2" x1="2" y1="521.42" x2="135" y2="521.42" style="fill:none;stroke:#000;stroke-linecap:round;stroke-width:4px"/>
+    <line id="Line_3" data-name="Line 3" x1="853" y1="560.42" x2="1202" y2="560.42" style="fill:none;stroke:#000;stroke-linecap:round;stroke-width:4px"/>
+    <line id="Line_5" data-name="Line 5" x1="1329" y1="599.42" x2="1412" y2="599.42" style="fill:none;stroke:#000;stroke-linecap:round;stroke-width:4px"/>
+    <line id="Line_4" data-name="Line 4" x1="99" y1="560.42" x2="268" y2="560.42" style="fill:none;stroke:#000;stroke-linecap:round;stroke-width:4px"/>
+</svg>
