@@ -7,7 +7,7 @@
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 594.83 280.72"
     >
-      <g id="Group_7" data-name="Group 7">
+      <g id="Group_7" data-name="Group 7" class="computerlines">
         <g
           id="Final-Screens"
           stroke="none"
