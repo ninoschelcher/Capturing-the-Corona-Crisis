@@ -16,7 +16,10 @@ export default {
     const height = 550;
     const chartRadius = height / 2 - 40;
 
-    let tooltip = d3.select("section").append("div").attr("class", "tooltip");
+    let tooltip = d3
+      .select("section#circular")
+      .append("div")
+      .attr("class", "tooltip");
 
     const color = [
       "#440154ff",

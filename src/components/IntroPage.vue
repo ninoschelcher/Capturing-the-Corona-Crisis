@@ -2,12 +2,13 @@
   <section id="intro">
     <h1>Pakketjes, bedrijven hebben het er maar druk mee...</h1>
     <svg
-      id="Layer_1"
+      id="webcam"
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1542 601.42"
     >
       <path
+        class="computerlines"
         d="M1149.87,389.93H1533a21.85,21.85,0,0,1,21.85,21.85V603.21"
         transform="translate(-286.8 -387.93)"
         style="
@@ -19,6 +20,7 @@
         "
       />
       <line
+        class="computerlines"
         x1="826.63"
         y1="2"
         x2="845.5"
@@ -32,6 +34,7 @@
         "
       />
       <path
+        class="computerlines"
         d="M1004.73,645.29V411.78a21.85,21.85,0,0,1,21.85-21.85h66.88"
         transform="translate(-286.8 -387.93)"
         style="
@@ -43,6 +46,7 @@
         "
       />
       <path
+        class="computerlines"
         d="M1554.8,637.19V788.25A21.86,21.86,0,0,1,1533,810.11H1026.58a21.86,21.86,0,0,1-21.85-21.86V677.62"
         transform="translate(-286.8 -387.93)"
         style="
@@ -54,6 +58,7 @@
         "
       />
       <path
+        class="computerlines"
         d="M1350.56,790.89H1031a5.77,5.77,0,0,1-5.77-5.77V417.56a5.76,5.76,0,0,1,5.77-5.76H1528.5a5.76,5.76,0,0,1,5.76,5.76v47.26"
         transform="translate(-286.8 -387.93)"
         style="
@@ -65,6 +70,7 @@
         "
       />
       <path
+        class="computerlines"
         d="M1534.26,502.4V785.12a5.76,5.76,0,0,1-5.76,5.77H1375.16"
         transform="translate(-286.8 -387.93)"
         style="
@@ -158,6 +164,7 @@
         "
       />
       <path
+        class="computerlines"
         d="M1189.84,812.11s-1.21,51-62.18,96.09"
         transform="translate(-286.8 -387.93)"
         style="
@@ -169,6 +176,7 @@
         "
       />
       <path
+        class="computerlines"
         d="M1345.77,812.69s1.21,51,62.18,96.09"
         transform="translate(-286.8 -387.93)"
         style="
@@ -180,6 +188,7 @@
         "
       />
       <rect
+        class="computerlines"
         x="824.63"
         y="296.92"
         width="338"
@@ -296,6 +305,8 @@
         "
       />
       <text
+        cursor="pointer"
+        class="computerlines"
         transform="translate(923.22 344.29)"
         v-on:click="removeContent"
         style="
@@ -309,11 +320,9 @@
           S
         </tspan>
         <tspan x="79.15" y="0">TE</tspan>
-        <tspan x="127.53" y="0" style="letter-spacing: -0.0198784722222222em">
-          L
-        </tspan>
+        <tspan x="127.53" y="0" style="letter-spacing: -0.2em">L</tspan>
       </text>
-      <g id="computerlines">
+      <g class="computerlines">
         <line
           id="Line_1"
           data-name="Line 1"
@@ -395,7 +404,12 @@ export default {
   methods: {
     removeContent: () => {
       document.querySelector("h1").style.opacity = "0";
-      document.getElementById("computerlines").style.opacity = "0";
+      const computerlines = document.getElementsByClassName("computerlines");
+      computerlines.forEach((line) => (line.style.opacity = "0"));
+
+      setTimeout(() => {
+        document.getElementById("webcam").classList.add("zoomed");
+      }, 3000);
     },
   },
 };
@@ -405,6 +419,7 @@ export default {
 #intro {
   height: 100vh;
   padding-left: 4em;
+  overflow: hidden;
 }
 #intro h1 {
   font-family: "Mont Heavy";
@@ -414,14 +429,39 @@ export default {
   transition: 0.5s opacity;
 }
 #intro svg {
-  max-width: 75%;
+  width: 75%;
   text-align: right;
   position: relative;
   top: 210px;
   left: 170px;
+  transition: all 0.5s;
 }
 
-#computerlines {
+#intro svg.zoomed {
+  top: 330px;
+  left: -610px;
+  transform: scale(3);
+  overflow: hidden;
+}
+
+.computerlines {
   transition: 0.5s opacity;
+}
+
+@media only screen and (max-width: 1440px) {
+  #intro h1 {
+    font-family: "Mont Heavy";
+    font-size: 3.5em;
+    max-width: 55%;
+    transform: translateY(90%);
+    transition: 0.5s opacity;
+  }
+  #intro svg {
+    width: 65%;
+    text-align: right;
+    position: relative;
+    top: 80px;
+    left: 180px;
+  }
 }
 </style>
