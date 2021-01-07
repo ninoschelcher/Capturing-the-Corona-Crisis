@@ -23,15 +23,19 @@ export default {
     const x = d3.scaleTime().range([0, width]);
     const y = d3.scaleLinear().range([height, 0]);
 
+    const tooltip = d3
+      .select("div#line")
+      .append("div")
+      .attr("class", "tooltip");
+
     const valueline = d3
       .line()
       .x(function (d) {
-        return x(d.periode);
+        return x(d.periode2);
       })
       .y(function (d) {
         return y(d.omzetontwikkeling);
-      })
-      .curve(d3.curveBasis);
+      });
 
     const svg = d3
       .select("#line")
@@ -43,13 +47,13 @@ export default {
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     omzetdata.forEach((d) => {
-      d.periode = parseTime(d.periode);
+      d.periode2 = parseTime(d.periode);
       d.omzetontwikkeling = +d.omzetontwikkeling;
     });
 
     x.domain(
       d3.extent(omzetdata, (d) => {
-        return d.periode;
+        return d.periode2;
       })
     );
     y.domain([
@@ -80,6 +84,52 @@ export default {
       .call(d3.axisBottom(x));
 
     svg.append("g").call(d3.axisLeft(y));
+
+    const dots = svg
+      .selectAll("circle")
+      .data(omzetdata)
+      .enter()
+      .append("circle")
+      .attr("r", 0)
+      .attr("cx", function (d) {
+        return x(d.periode2);
+      })
+      .attr("cy", function (d) {
+        return y(d.omzetontwikkeling);
+      });
+
+    dots
+      .style("opacity", 0)
+      .transition()
+      .duration(4000)
+      .delay(function (_, i) {
+        return i * 200;
+      })
+      .style("opacity", 1)
+      .style("cursor", "pointer")
+      .attr("r", 5);
+
+    dots.on("mousemove", showTooltip);
+    dots.on("mouseout", hideTooltip);
+
+    function showTooltip(d, omzetdata) {
+      tooltip
+        .style("left", d.pageX + "px")
+        .style("top", d.pageY + 10 + "px")
+        .style("display", "block")
+        .html(
+          "Datum: " +
+            omzetdata.periode +
+            "<br>" +
+            "Stijging: " +
+            omzetdata.omzetontwikkeling +
+            "&#37;"
+        );
+    }
+
+    function hideTooltip() {
+      tooltip.style("display", "none");
+    }
 
     svg
       .append("text")

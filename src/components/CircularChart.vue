@@ -140,7 +140,6 @@ export default {
     }
 
     function showTooltip(d, branchedata) {
-      console.log(d);
       tooltip
         .style("left", d.pageX + "px")
         .style("top", d.pageY + 10 + "px")
