@@ -9,21 +9,28 @@ export default {
   name: "CircularChart",
   mounted() {
     //https://gist.github.com/AntonOrlov/6b42d8676943cc933f48a43a7c7e5b6c//
+    const margin = { top: 50, right: 20, bottom: 80, left: 50 };
     const width = 960;
-    const height = 500;
+    const height = 550;
     const chartRadius = height / 2 - 40;
 
     let tooltip = d3.select("section").append("div").attr("class", "tooltip");
 
-    const color = d3.scaleOrdinal(d3.schemeCategory10);
+    const color = [
+      "#440154ff",
+      "#31668dff",
+      "#37b578ff",
+      "#fde725ff",
+      "#B35900",
+    ];
 
     const svg = d3
       .select("section")
       .append("svg")
-      .attr("width", width)
+      .attr("width", width + margin.top)
       .attr("height", height)
       .append("g")
-      .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+      .attr("transform", "translate(" + width / 2 + "," + 290 + ")");
 
     const PI = Math.PI,
       arcMinRadius = 10,
@@ -64,7 +71,7 @@ export default {
     radialAxis
       .append("text")
       .attr("x", labelPadding)
-      .attr("y", (d, i) => -getOuterRadius(i) + arcPadding)
+      .attr("y", (d, i) => -getOuterRadius(i) + arcPadding + 10)
       .text((d) => d.branche);
 
     const axialAxis = svg
@@ -104,7 +111,8 @@ export default {
       .enter()
       .append("path")
       .attr("class", "arc")
-      .style("fill", (d, i) => color(i));
+      .style("fill", (d, i) => color[i])
+      .style("cursor", "pointer");
 
     arcs
       .transition()
@@ -120,12 +128,19 @@ export default {
       return (t) => arc(interpolate(t), i);
     }
 
-    function showTooltip(d) {
+    function showTooltip(d, branchedata) {
       tooltip
-        .style("left", d.offsetX + 10 + "px")
-        .style("top", d.offsetY - 20 + "px")
-        .style("display", "inline-block")
-        .html(d.stijging);
+        .style("left", d.offsetX + "px")
+        .style("top", d.offsetY + 10 + "px")
+        .style("display", "block")
+        .html(
+          "Branche: " +
+            branchedata.branche +
+            "<br>" +
+            "Stijging: " +
+            branchedata.stijging +
+            "&#37;"
+        );
     }
 
     function hideTooltip() {
@@ -143,6 +158,15 @@ export default {
     function getOuterRadius(index) {
       return getInnerRadius(index) + arcWidth;
     }
+
+    svg
+      .append("text")
+      .attr("x", 0)
+      .attr("y", -255)
+      .attr("text-anchor", "middle")
+      .style("font-size", "20px")
+      .style("font-family", "Mont Heavy")
+      .text("Productbranche groei Q3 in 2020");
   },
 };
 </script>

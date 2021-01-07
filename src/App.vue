@@ -1,6 +1,6 @@
 <template>
-  <LineChart />
   <CircularChart />
+  <LineChart />
   <Intro />
   <SorteerCentrum />
   <DozenStapel />

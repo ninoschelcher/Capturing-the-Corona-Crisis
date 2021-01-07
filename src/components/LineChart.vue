@@ -8,9 +8,9 @@ import { omzetdata } from "../helpers/graphdata.js";
 export default {
   name: "LineChart",
   mounted() {
-    const margin = { top: 20, right: 20, bottom: 30, left: 50 };
-    const width = 960 - margin.left - margin.right;
-    const height = 500 - margin.top - margin.bottom;
+    const margin = { top: 50, right: 20, bottom: 80, left: 100 };
+    const width = 980 - margin.left - margin.right;
+    const height = 550 - margin.top - margin.bottom;
     const parseTime = d3.timeParse("%d-%m-%Y");
     const x = d3.scaleTime().range([0, width]);
     const y = d3.scaleLinear().range([height, 0]);
@@ -28,6 +28,7 @@ export default {
     const svg = d3
       .select("body")
       .append("svg")
+      .attr("class", "linechart")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
       .append("g")
@@ -71,11 +72,46 @@ export default {
       .call(d3.axisBottom(x));
 
     svg.append("g").call(d3.axisLeft(y));
+
+    svg
+      .append("text")
+      .attr("class", "linelabels")
+      .attr(
+        "transform",
+        "translate(" + width / 2 + " ," + (height + margin.top + 10) + ")"
+      )
+      .style("text-anchor", "middle")
+      .text("Periode");
+
+    svg
+      .append("text")
+      .attr("class", "linelabels")
+      .attr("transform", "rotate(-90)")
+      .attr("y", -85)
+      .attr("x", 0 - height / 2)
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Omzet stijging");
+
+    svg
+      .append("text")
+      .attr("x", width / 2)
+      .attr("y", 0 - margin.top / 2)
+      .attr("text-anchor", "middle")
+      .style("font-size", "20px")
+      .style("font-family", "Mont Heavy")
+      .text("Omzet stijging webwinkels 2019-2020");
   },
 };
 </script>
 
 <style>
+.linechart .linelabels {
+  font-size: 25px;
+}
+.linechart text {
+  font-size: 15px;
+}
 .line {
   fill: none;
   stroke: #454751;

@@ -1,5 +1,7 @@
 <template>
-  <div><p>Schaal</p></div>
+  <div>
+    <p><img src="../../public/assets/stapel_pakketjes.V.1.png" alt="" /></p>
+  </div>
 </template>
 
 <script>
@@ -12,7 +14,7 @@ const svg = d3
   .select("div")
   .append("svg")
   .attr("width", 200)
-  .attr("height", 500100);
+  .attr("height", 500000);
 
 // Create the scale
 const yScale = d3.scaleLinear().domain([1700000, 0]).range([500000, 0]);
@@ -29,6 +31,13 @@ g.selectAll("text").attr("transform", "translate(10,0)");
 </script>
 
 <style scoped>
+p {
+  text-align: right;
+}
+p img {
+  max-width: 80%;
+  margin-right: 0;
+}
 svg {
 }
 </style>
