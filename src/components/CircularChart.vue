@@ -1,6 +1,12 @@
 <template>
-  <section id="circular">
-    <p>Check</p>
+  <section id="circularsection">
+    <h2>Productbranche groei in 3e kwart 2020</h2>
+    <p>
+      Deze grafiek toont de procentuele groei van de verschillende branches bij
+      webshops in het 3e kwartaal van 2020. DIY & Garden waren de grote winnaars
+      tijdens deze periode.
+    </p>
+    <div id="circular"></div>
   </section>
 </template>
 
@@ -17,7 +23,7 @@ export default {
     const chartRadius = height / 2 - 40;
 
     let tooltip = d3
-      .select("section#circular")
+      .select("div#circular")
       .append("div")
       .attr("class", "tooltip");
 
@@ -30,7 +36,7 @@ export default {
     ];
 
     const svg = d3
-      .select("section#circular")
+      .select("div#circular")
       .append("svg")
       .attr("width", width + margin.top)
       .attr("height", height)
@@ -134,9 +140,10 @@ export default {
     }
 
     function showTooltip(d, branchedata) {
+      console.log(d);
       tooltip
-        .style("left", d.offsetX + "px")
-        .style("top", d.offsetY + 10 + "px")
+        .style("left", d.pageX + "px")
+        .style("top", d.pageY + 10 + "px")
         .style("display", "block")
         .html(
           "Branche: " +
@@ -163,20 +170,22 @@ export default {
     function getOuterRadius(index) {
       return getInnerRadius(index) + arcWidth;
     }
-
-    svg
-      .append("text")
-      .attr("x", 0)
-      .attr("y", -255)
-      .attr("text-anchor", "middle")
-      .style("font-size", "20px")
-      .style("font-family", "Mont Heavy")
-      .text("Productbranche groei Q3 in 2020");
   },
 };
 </script>
 
 <style>
+#circularsection {
+  text-align: center;
+}
+#circularsection h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+#circularsection p {
+  margin: 0 auto;
+  max-width: 40%;
+}
 svg {
   margin: 0px auto;
   display: block;
@@ -208,10 +217,10 @@ path.arc:hover {
 .tooltip {
   position: absolute;
   display: none;
-  background: rgba(0, 0, 0, 0.6);
+  background: #fff;
+  border: 1px solid #b8b8b8;
   border-radius: 3px;
-  box-shadow: -3px 3px 15px #888;
-  color: white;
+  color: #000;
   padding: 6px;
 }
 </style>

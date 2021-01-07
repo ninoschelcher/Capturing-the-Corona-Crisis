@@ -1,6 +1,12 @@
 <template>
-  <section id="line">
-    <p>Check</p>
+  <section id="linesection">
+    <h2>Omzet stijging webwinkels 2019-2020</h2>
+    <p>
+      Deze grafiek toont de procentuele omzet van 2019 en 2020 in vergelijking
+      met dezelfde periode het jaar ervoor. De stijging begint wanneer Corona
+      Nederland had bereikt.
+    </p>
+    <div id="line"></div>
   </section>
 </template>
 
@@ -28,7 +34,7 @@ export default {
       .curve(d3.curveBasis);
 
     const svg = d3
-      .select("section#line")
+      .select("#line")
       .append("svg")
       .attr("class", "linechart")
       .attr("width", width + margin.left + margin.right)
@@ -94,20 +100,22 @@ export default {
       .attr("dy", "1em")
       .style("text-anchor", "middle")
       .text("Omzet stijging");
-
-    svg
-      .append("text")
-      .attr("x", width / 2)
-      .attr("y", 0 - margin.top / 2)
-      .attr("text-anchor", "middle")
-      .style("font-size", "20px")
-      .style("font-family", "Mont Heavy")
-      .text("Omzet stijging webwinkels 2019-2020");
   },
 };
 </script>
 
 <style>
+#linesection {
+  text-align: center;
+}
+#linesection h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+#linesection p {
+  margin: 0 auto;
+  max-width: 40%;
+}
 .linechart .linelabels {
   font-size: 25px;
 }
@@ -121,7 +129,7 @@ export default {
 }
 
 text {
-  font-family: "Mont Light";
+  font-family: "sofia-pro";
 }
 
 path {

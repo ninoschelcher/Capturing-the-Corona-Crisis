@@ -409,7 +409,7 @@ export default {
 
       setTimeout(() => {
         document.getElementById("webcam").classList.add("zoomed");
-      }, 3000);
+      }, 2000);
     },
   },
 };
@@ -462,6 +462,12 @@ export default {
     position: relative;
     top: 80px;
     left: 180px;
+  }
+  #intro svg.zoomed {
+    top: 200px;
+    left: -440px;
+    transform: scale(3);
+    overflow: hidden;
   }
 }
 </style>
