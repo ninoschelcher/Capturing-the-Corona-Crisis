@@ -2,6 +2,59 @@
   <section id="intro">
     <h1>Pakketjes, bedrijven hebben het er maar druk mee...</h1>
     <svg
+      id="Layer_10"
+      data-name="Layer 10"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 594.83 280.72"
+    >
+      <g id="Group_7" data-name="Group 7">
+        <g
+          id="Final-Screens"
+          stroke="none"
+          fill="none"
+          fill-rule="evenodd"
+          stroke-dasharray="27"
+        >
+          <path
+            id="Path_6"
+            data-name="Path 6"
+            d="M568.26,424.88c2.53,20.15,32.18,29.08,67.07,42.05,39.38,14.65,85.43,34.46,106.63,81.4q7.5,16.59,15.53,30.45c37.42,64.77,83,86.56,133.13,85.82,57.25-.84,103.57-25.36,101-59.82s-18.38-56.45-47.38-56.45-70.49,8.53-70.49,56.45.72,80.64,51.47,92.05,119.06-4.13,197.58-32.23"
+            transform="translate(-565.76 -422.38)"
+            style="
+              fill: none;
+              stroke: white;
+              stroke-linecap: round;
+              stroke-width: 5px;
+            "
+          />
+          <path
+            id="Path_6"
+            data-name="Path 6"
+            d="M568.26,424.88c2.53,20.15,32.18,29.08,67.07,42.05,39.38,14.65,85.43,34.46,106.63,81.4q7.5,16.59,15.53,30.45c37.42,64.77,83,86.56,133.13,85.82,57.25-.84,103.57-25.36,101-59.82s-18.38-56.45-47.38-56.45-70.49,8.53-70.49,56.45.72,80.64,51.47,92.05,119.06-4.13,197.58-32.23"
+            transform="translate(-565.76 -422.38)"
+            class="dashed-path"
+            style="
+              fill: none;
+              stroke: #000;
+              stroke-linecap: round;
+              stroke-width: 5px;
+            "
+          />
+        </g>
+        <polyline
+          id="arrowhead"
+          points="553.03 222.88 572.68 223.09 592.33 223.31 582.32 240.22 572.3 257.13"
+          style="
+            fill: none;
+            stroke: #000;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 5.000000029339377px;
+          "
+        />
+      </g>
+    </svg>
+    <svg
       id="webcam"
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
@@ -529,401 +582,6 @@
         />
       </g>
     </svg>
-
-    <!-- <svg
-      id="webcam"
-      data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1542 601.42"
-    >
-      <path
-        class="computerlines"
-        d="M1149.87,389.93H1533a21.85,21.85,0,0,1,21.85,21.85V603.21"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <line
-        class="computerlines"
-        x1="826.63"
-        y1="2"
-        x2="845.5"
-        y2="2"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <path
-        class="computerlines"
-        d="M1004.73,645.29V411.78a21.85,21.85,0,0,1,21.85-21.85h66.88"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <path
-        class="computerlines"
-        d="M1554.8,637.19V788.25A21.86,21.86,0,0,1,1533,810.11H1026.58a21.86,21.86,0,0,1-21.85-21.86V677.62"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <path
-        class="computerlines"
-        d="M1350.56,790.89H1031a5.77,5.77,0,0,1-5.77-5.77V417.56a5.76,5.76,0,0,1,5.77-5.76H1528.5a5.76,5.76,0,0,1,5.76,5.76v47.26"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <path
-        class="computerlines"
-        d="M1534.26,502.4V785.12a5.76,5.76,0,0,1-5.76,5.77H1375.16"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <path
-        d="M1340,488.52a70.79,70.79,0,1,1-10.54-9.66"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <line
-        x1="978.41"
-        y1="215.29"
-        x2="978.41"
-        y2="236.91"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <line
-        x1="1017.74"
-        y1="216.54"
-        x2="1017.74"
-        y2="236.91"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <rect
-        x="955.85"
-        y="237.27"
-        width="83.51"
-        height="15.91"
-        rx="4.53"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <path
-        d="M1326.16,535.73A40.41,40.41,0,1,1,1305,500.18"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 3px;
-        "
-      />
-      <path
-        d="M1316.09,508.93a18.17,18.17,0,0,1,7.42,11.56"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 3px;
-        "
-      />
-      <circle cx="999.26" cy="147.47" r="16.9" />
-      <path
-        d="M1312.12,469.38a26.26,26.26,0,0,1-1.93,7.83,10.86,10.86,0,0,1-10,6.34h-30.7s-7.11,0-9.15-4.84c-1-2.31-2.28-4.83-1.56-8"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 3px;
-        "
-      />
-      <path
-        class="computerlines"
-        d="M1189.84,812.11s-1.21,51-62.18,96.09"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <path
-        class="computerlines"
-        d="M1345.77,812.69s1.21,51,62.18,96.09"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <rect
-        class="computerlines"
-        x="824.63"
-        y="296.92"
-        width="338"
-        height="63.62"
-        rx="2.67"
-        cursor="pointer"
-        v-on:click="removeContent"
-        style="
-          fill: transparent;
-          stroke: #000;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <line
-        x1="856.06"
-        y1="254.5"
-        x2="860.77"
-        y2="254.5"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 3px;
-        "
-      />
-      <line
-        x1="871.92"
-        y1="254.5"
-        x2="894.14"
-        y2="254.5"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 3px;
-        "
-      />
-      <line
-        x1="904.04"
-        y1="254.5"
-        x2="1068.95"
-        y2="254.5"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 3px;
-        "
-      />
-      <line
-        x1="1093.07"
-        y1="254.5"
-        x2="1111.36"
-        y2="254.5"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 3px;
-        "
-      />
-      <line
-        x1="1107.64"
-        y1="263.12"
-        x2="1054.29"
-        y2="263.12"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 3px;
-        "
-      />
-      <line
-        x1="1035.96"
-        y1="263.12"
-        x2="1022.92"
-        y2="263.12"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 3px;
-        "
-      />
-      <line
-        x1="924.07"
-        y1="263.12"
-        x2="888.91"
-        y2="263.12"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-          stroke-width: 3px;
-        "
-      />
-      <path
-        d="M1264.09,482.56"
-        transform="translate(-286.8 -387.93)"
-        style="
-          fill: none;
-          stroke: #000;
-          stroke-miterlimit: 10;
-          stroke-width: 4px;
-        "
-      />
-      <text
-        cursor="pointer"
-        class="computerlines"
-        transform="translate(923.22 344.29)"
-        v-on:click="removeContent"
-        style="
-          font-size: 45px;
-          font-family: Mont-ExtraLightDEMO, Mont;
-          font-weight: 200;
-        "
-      >
-        BE
-        <tspan x="53.37" y="0" style="letter-spacing: -0.009982638888888888em">
-          S
-        </tspan>
-        <tspan x="79.15" y="0">TE</tspan>
-        <tspan x="127.53" y="0" style="letter-spacing: -0.2em">L</tspan>
-      </text>
-      <g class="computerlines">
-        <line
-          id="Line_1"
-          data-name="Line 1"
-          x1="183"
-          y1="521.42"
-          x2="1540"
-          y2="521.42"
-          style="
-            fill: none;
-            stroke: #000;
-            stroke-linecap: round;
-            stroke-width: 4px;
-          "
-        />
-        <line
-          id="Line_2"
-          data-name="Line 2"
-          x1="2"
-          y1="521.42"
-          x2="135"
-          y2="521.42"
-          style="
-            fill: none;
-            stroke: #000;
-            stroke-linecap: round;
-            stroke-width: 4px;
-          "
-        />
-        <line
-          id="Line_3"
-          data-name="Line 3"
-          x1="853"
-          y1="560.42"
-          x2="1202"
-          y2="560.42"
-          style="
-            fill: none;
-            stroke: #000;
-            stroke-linecap: round;
-            stroke-width: 4px;
-          "
-        />
-        <line
-          id="Line_5"
-          data-name="Line 5"
-          x1="1329"
-          y1="599.42"
-          x2="1412"
-          y2="599.42"
-          style="
-            fill: none;
-            stroke: #000;
-            stroke-linecap: round;
-            stroke-width: 4px;
-          "
-        />
-        <line
-          id="Line_4"
-          data-name="Line 4"
-          x1="99"
-          y1="560.42"
-          x2="268"
-          y2="560.42"
-          style="
-            fill: none;
-            stroke: #000;
-            stroke-linecap: round;
-            stroke-width: 4px;
-          "
-        />
-      </g>
-    </svg> -->
   </section>
 </template>
 
@@ -957,7 +615,7 @@ export default {
   transform: translateY(140%);
   transition: 0.5s opacity;
 }
-#intro svg {
+#intro svg:last-of-type {
   width: 75%;
   text-align: right;
   position: relative;
@@ -973,8 +631,46 @@ export default {
   overflow: hidden;
 }
 
+#Layer_10 {
+  max-width: 30%;
+  position: absolute;
+  top: 400px;
+  left: 450px;
+}
+
 .computerlines {
   transition: 0.5s opacity;
+}
+
+#arrowhead {
+  animation: showarrow 1s forwards;
+  animation-delay: 1.7s;
+  transition: 0.5s opacity;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.dashed-path {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: dashed-line 5s linear;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes dashed-line {
+  from {
+    stroke-dashoffset: 3000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes showarrow {
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
