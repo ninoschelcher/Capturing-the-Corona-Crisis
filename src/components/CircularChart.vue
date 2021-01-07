@@ -1,5 +1,7 @@
 <template>
-  <section></section>
+  <section id="circular">
+    <p>Check</p>
+  </section>
 </template>
 
 <script>
@@ -25,7 +27,7 @@ export default {
     ];
 
     const svg = d3
-      .select("section")
+      .select("section#circular")
       .append("svg")
       .attr("width", width + margin.top)
       .attr("height", height)

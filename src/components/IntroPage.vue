@@ -1,0 +1,427 @@
+<template>
+  <section id="intro">
+    <h1>Pakketjes, bedrijven hebben het er maar druk mee...</h1>
+    <svg
+      id="Layer_1"
+      data-name="Layer 1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1542 601.42"
+    >
+      <path
+        d="M1149.87,389.93H1533a21.85,21.85,0,0,1,21.85,21.85V603.21"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <line
+        x1="826.63"
+        y1="2"
+        x2="845.5"
+        y2="2"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <path
+        d="M1004.73,645.29V411.78a21.85,21.85,0,0,1,21.85-21.85h66.88"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <path
+        d="M1554.8,637.19V788.25A21.86,21.86,0,0,1,1533,810.11H1026.58a21.86,21.86,0,0,1-21.85-21.86V677.62"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <path
+        d="M1350.56,790.89H1031a5.77,5.77,0,0,1-5.77-5.77V417.56a5.76,5.76,0,0,1,5.77-5.76H1528.5a5.76,5.76,0,0,1,5.76,5.76v47.26"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <path
+        d="M1534.26,502.4V785.12a5.76,5.76,0,0,1-5.76,5.77H1375.16"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <path
+        d="M1340,488.52a70.79,70.79,0,1,1-10.54-9.66"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <line
+        x1="978.41"
+        y1="215.29"
+        x2="978.41"
+        y2="236.91"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <line
+        x1="1017.74"
+        y1="216.54"
+        x2="1017.74"
+        y2="236.91"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <rect
+        x="955.85"
+        y="237.27"
+        width="83.51"
+        height="15.91"
+        rx="4.53"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <path
+        d="M1326.16,535.73A40.41,40.41,0,1,1,1305,500.18"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 3px;
+        "
+      />
+      <path
+        d="M1316.09,508.93a18.17,18.17,0,0,1,7.42,11.56"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 3px;
+        "
+      />
+      <circle cx="999.26" cy="147.47" r="16.9" />
+      <path
+        d="M1312.12,469.38a26.26,26.26,0,0,1-1.93,7.83,10.86,10.86,0,0,1-10,6.34h-30.7s-7.11,0-9.15-4.84c-1-2.31-2.28-4.83-1.56-8"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 3px;
+        "
+      />
+      <path
+        d="M1189.84,812.11s-1.21,51-62.18,96.09"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <path
+        d="M1345.77,812.69s1.21,51,62.18,96.09"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <rect
+        x="824.63"
+        y="296.92"
+        width="338"
+        height="63.62"
+        rx="2.67"
+        cursor="pointer"
+        v-on:click="removeContent"
+        style="
+          fill: transparent;
+          stroke: #000;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <line
+        x1="856.06"
+        y1="254.5"
+        x2="860.77"
+        y2="254.5"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 3px;
+        "
+      />
+      <line
+        x1="871.92"
+        y1="254.5"
+        x2="894.14"
+        y2="254.5"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 3px;
+        "
+      />
+      <line
+        x1="904.04"
+        y1="254.5"
+        x2="1068.95"
+        y2="254.5"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 3px;
+        "
+      />
+      <line
+        x1="1093.07"
+        y1="254.5"
+        x2="1111.36"
+        y2="254.5"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 3px;
+        "
+      />
+      <line
+        x1="1107.64"
+        y1="263.12"
+        x2="1054.29"
+        y2="263.12"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 3px;
+        "
+      />
+      <line
+        x1="1035.96"
+        y1="263.12"
+        x2="1022.92"
+        y2="263.12"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 3px;
+        "
+      />
+      <line
+        x1="924.07"
+        y1="263.12"
+        x2="888.91"
+        y2="263.12"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+          stroke-width: 3px;
+        "
+      />
+      <path
+        d="M1264.09,482.56"
+        transform="translate(-286.8 -387.93)"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-miterlimit: 10;
+          stroke-width: 4px;
+        "
+      />
+      <text
+        transform="translate(923.22 344.29)"
+        v-on:click="removeContent"
+        style="
+          font-size: 45px;
+          font-family: Mont-ExtraLightDEMO, Mont;
+          font-weight: 200;
+        "
+      >
+        BE
+        <tspan x="53.37" y="0" style="letter-spacing: -0.009982638888888888em">
+          S
+        </tspan>
+        <tspan x="79.15" y="0">TE</tspan>
+        <tspan x="127.53" y="0" style="letter-spacing: -0.0198784722222222em">
+          L
+        </tspan>
+      </text>
+      <g id="computerlines">
+        <line
+          id="Line_1"
+          data-name="Line 1"
+          x1="183"
+          y1="521.42"
+          x2="1540"
+          y2="521.42"
+          style="
+            fill: none;
+            stroke: #000;
+            stroke-linecap: round;
+            stroke-width: 4px;
+          "
+        />
+        <line
+          id="Line_2"
+          data-name="Line 2"
+          x1="2"
+          y1="521.42"
+          x2="135"
+          y2="521.42"
+          style="
+            fill: none;
+            stroke: #000;
+            stroke-linecap: round;
+            stroke-width: 4px;
+          "
+        />
+        <line
+          id="Line_3"
+          data-name="Line 3"
+          x1="853"
+          y1="560.42"
+          x2="1202"
+          y2="560.42"
+          style="
+            fill: none;
+            stroke: #000;
+            stroke-linecap: round;
+            stroke-width: 4px;
+          "
+        />
+        <line
+          id="Line_5"
+          data-name="Line 5"
+          x1="1329"
+          y1="599.42"
+          x2="1412"
+          y2="599.42"
+          style="
+            fill: none;
+            stroke: #000;
+            stroke-linecap: round;
+            stroke-width: 4px;
+          "
+        />
+        <line
+          id="Line_4"
+          data-name="Line 4"
+          x1="99"
+          y1="560.42"
+          x2="268"
+          y2="560.42"
+          style="
+            fill: none;
+            stroke: #000;
+            stroke-linecap: round;
+            stroke-width: 4px;
+          "
+        />
+      </g>
+    </svg>
+  </section>
+</template>
+
+<script>
+export default {
+  name: "IntroPage",
+  methods: {
+    removeContent: () => {
+      document.querySelector("h1").style.opacity = "0";
+      document.getElementById("computerlines").style.opacity = "0";
+    },
+  },
+};
+</script>
+
+<style>
+#intro {
+  height: 100vh;
+  padding-left: 4em;
+}
+#intro h1 {
+  font-family: "Mont Heavy";
+  font-size: 4em;
+  max-width: 55%;
+  transform: translateY(140%);
+  transition: 0.5s opacity;
+}
+#intro svg {
+  max-width: 75%;
+  text-align: right;
+  position: relative;
+  top: 210px;
+  left: 170px;
+}
+
+#computerlines {
+  transition: 0.5s opacity;
+}
+</style>

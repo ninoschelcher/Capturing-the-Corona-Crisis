@@ -1,13 +1,12 @@
 <template>
+  <IntroPage />
   <CircularChart />
   <LineChart />
-  <Intro />
-  <SorteerCentrum />
-  <BestelBusje />
   <DozenStapel />
 </template>
 
 <script>
+import IntroPage from "./components/IntroPage.vue";
 import DozenStapel from "./components/DozenStapel.vue";
 import CircularChart from "./components/CircularChart.vue";
 import LineChart from "./components/LineChart.vue";
@@ -15,6 +14,7 @@ import LineChart from "./components/LineChart.vue";
 export default {
   name: "App",
   components: {
+    IntroPage,
     DozenStapel,
     CircularChart,
     LineChart,

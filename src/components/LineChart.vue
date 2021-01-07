@@ -1,5 +1,7 @@
 <template>
-  <section></section>
+  <section id="line">
+    <p>Check</p>
+  </section>
 </template>
 
 <script>
@@ -26,7 +28,7 @@ export default {
       .curve(d3.curveBasis);
 
     const svg = d3
-      .select("section")
+      .select("section#line")
       .append("svg")
       .attr("class", "linechart")
       .attr("width", width + margin.left + margin.right)
