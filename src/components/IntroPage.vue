@@ -681,7 +681,7 @@ export default {
     transform: translateY(90%);
     transition: 0.5s opacity;
   }
-  #intro svg {
+  #intro svg:last-of-type {
     width: 65%;
     text-align: right;
     position: relative;
@@ -693,6 +693,12 @@ export default {
     left: -440px;
     transform: scale(3);
     overflow: hidden;
+  }
+  #Layer_10 {
+    max-width: 25%;
+    position: absolute;
+    top: 340px;
+    left: 480px;
   }
 }
 </style>
