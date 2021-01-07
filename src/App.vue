@@ -3,8 +3,8 @@
   <LineChart />
   <Intro />
   <SorteerCentrum />
-  <DozenStapel />
   <BestelBusje />
+  <DozenStapel />
 </template>
 
 <script>

@@ -26,7 +26,7 @@ export default {
       .curve(d3.curveBasis);
 
     const svg = d3
-      .select("body")
+      .select("section")
       .append("svg")
       .attr("class", "linechart")
       .attr("width", width + margin.left + margin.right)
