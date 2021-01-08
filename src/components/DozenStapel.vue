@@ -2,7 +2,10 @@
   <section id="boxmountain">
     <div class="scale"></div>
     <div id="boxes">
-      <p><img src="../../public/assets/stapel_pakketjes.V.1.png" alt="" /></p>
+      <p><img src="../../public/assets/doosbegin.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
     </div>
   </section>
 </template>
@@ -38,6 +41,11 @@ export default {
 <style scoped>
 #boxmountain {
   display: flex;
+}
+p:first-of-type img {
+  position: relative;
+  left: -150px;
+  top: 8px;
 }
 p {
   text-align: right;
