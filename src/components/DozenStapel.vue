@@ -17,10 +17,10 @@ export default {
       .select("#boxmountain > div")
       .append("svg")
       .attr("width", 200)
-      .attr("height", 35200);
+      .attr("height", 60100);
 
     // Create the scale
-    const yScale = d3.scaleLinear().domain([1700000, 0]).range([35000, 0]);
+    const yScale = d3.scaleLinear().domain([1700000, 0]).range([60000, 0]);
     const yAxis = d3.axisRight(yScale).ticks(34);
 
     const g = svg
