@@ -582,12 +582,18 @@
         />
       </g>
     </svg>
+    <CircularChart />
   </section>
 </template>
 
 <script>
+import CircularChart from "./CircularChart.vue";
+
 export default {
   name: "IntroPage",
+  components: {
+    CircularChart,
+  },
   methods: {
     removeContent: () => {
       document.querySelector("h1").style.opacity = "0";
@@ -596,6 +602,18 @@ export default {
 
       setTimeout(() => {
         document.getElementById("webcam").classList.add("zoomed");
+        document.querySelector("h1").style.display = "none";
+        const computerlines = document.getElementsByClassName("computerlines");
+        computerlines.forEach((line) => (line.style.visibility = "hidden"));
+
+        setTimeout(() => {
+          document.getElementById("webcam").style.opacity = "0";
+          document.getElementById("webcam").style.visibility = "hidden";
+          document.getElementById("webcam").style.display = "none";
+          document.getElementById("circularsection").style.visibility =
+            "visible";
+          document.getElementById("circularsection").style.opacity = "1";
+        }, 5000);
       }, 2000);
     },
   },
@@ -615,18 +633,18 @@ export default {
   transform: translateY(140%);
   transition: 0.5s opacity;
 }
-#intro svg:last-of-type {
+#intro #webcam {
   width: 75%;
   text-align: right;
   position: relative;
   top: 210px;
   left: 170px;
-  transition: all 0.5s;
+  transition: all 1.5s;
 }
 
-#intro svg.zoomed {
-  top: 330px;
-  left: -610px;
+#intro #webcam.zoomed {
+  top: 550px;
+  left: -620px;
   transform: scale(3);
   overflow: hidden;
 }
@@ -673,6 +691,13 @@ export default {
   }
 }
 
+#circularsection {
+  visibility: hidden;
+  opacity: 0;
+  transition: 1.5s all;
+  transform: translateY(10%);
+}
+
 @media only screen and (max-width: 1440px) {
   #intro h1 {
     font-family: "Mont Heavy";
@@ -681,15 +706,15 @@ export default {
     transform: translateY(90%);
     transition: 0.5s opacity;
   }
-  #intro svg:last-of-type {
+  #intro #webcam {
     width: 65%;
     text-align: right;
     position: relative;
     top: 80px;
     left: 180px;
   }
-  #intro svg.zoomed {
-    top: 200px;
+  #intro #webcam.zoomed {
+    top: 390px;
     left: -440px;
     transform: scale(3);
     overflow: hidden;

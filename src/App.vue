@@ -8,7 +8,6 @@
 <script>
 import IntroPage from "./components/IntroPage.vue";
 import DozenStapel from "./components/DozenStapel.vue";
-import CircularChart from "./components/CircularChart.vue";
 import LineChart from "./components/LineChart.vue";
 
 export default {
@@ -16,7 +15,6 @@ export default {
   components: {
     IntroPage,
     DozenStapel,
-    CircularChart,
     LineChart,
   },
 };

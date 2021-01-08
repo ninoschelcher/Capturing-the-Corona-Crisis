@@ -1,5 +1,5 @@
 <template>
-  <section id="circularsection">
+  <div id="circularsection">
     <h2>Productbranche groei in 3e kwart 2020</h2>
     <p>
       Deze grafiek toont de procentuele groei van de verschillende branches bij
@@ -7,7 +7,7 @@
       tijdens deze periode.
     </p>
     <div id="circular"></div>
-  </section>
+  </div>
 </template>
 
 <script>
