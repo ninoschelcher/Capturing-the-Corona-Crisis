@@ -6,6 +6,18 @@
       <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
       <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
       <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
+      <p><img src="../../public/assets/doosdoorloop.png" alt="" /></p>
     </div>
   </section>
 </template>
@@ -47,11 +59,14 @@ p:first-of-type img {
   left: -150px;
   top: 8px;
 }
+#boxes {
+  margin-left: -95px;
+}
 p {
   text-align: right;
 }
 p img {
-  max-width: 100%;
+  max-width: 90%;
   margin-right: 0;
 }
 </style>
