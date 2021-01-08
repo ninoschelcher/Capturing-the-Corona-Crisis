@@ -706,6 +706,9 @@ export default {
     transform: translateY(90%);
     transition: 0.5s opacity;
   }
+  #circularsection {
+    transform: translateY(2%);
+  }
   #intro #webcam {
     width: 65%;
     text-align: right;
