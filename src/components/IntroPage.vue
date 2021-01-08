@@ -1,6 +1,6 @@
 <template>
   <section id="intro">
-    <h1>Pakketjes, bedrijven hebben het er maar druk mee...</h1>
+    <h1>Pakketjes, bedrijven hebben het er maar druk mee tijdens Corona...</h1>
     <svg
       id="Layer_10"
       data-name="Layer 10"
@@ -625,15 +625,15 @@ export default {
   font-family: "Mont Heavy";
   font-size: 4em;
   max-width: 55%;
-  transform: translateY(140%);
+  transform: translateY(80%);
   transition: 0.5s opacity;
 }
 #intro #webcam {
   width: 75%;
   text-align: right;
   position: relative;
-  top: 210px;
-  left: 170px;
+  top: 120px;
+  left: 390px;
   transition: all 1.5s;
 }
 
@@ -698,7 +698,7 @@ export default {
     font-family: "Mont Heavy";
     font-size: 3.5em;
     max-width: 55%;
-    transform: translateY(90%);
+    transform: translateY(40%);
     transition: 0.5s opacity;
   }
   #circularsection {
@@ -709,7 +709,7 @@ export default {
     text-align: right;
     position: relative;
     top: 80px;
-    left: 180px;
+    left: 390px;
   }
   #intro #webcam.zoomed {
     top: 390px;
@@ -721,7 +721,7 @@ export default {
     max-width: 25%;
     position: absolute;
     top: 340px;
-    left: 480px;
+    left: 370px;
   }
 }
 </style>

@@ -54,19 +54,19 @@ export default {
 #boxmountain {
   display: flex;
 }
-p:first-of-type img {
+p:not(:first-of-type) {
   position: relative;
-  left: -150px;
-  top: 8px;
+  right: -150px;
+  top: -8px;
 }
 #boxes {
-  margin-left: -95px;
+  margin-left: -250px;
 }
 p {
   text-align: right;
 }
 p img {
-  max-width: 90%;
+  max-width: 80%;
   margin-right: 0;
 }
 </style>
