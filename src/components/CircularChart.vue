@@ -111,7 +111,7 @@ export default {
           (chartRadius + 10) +
           ",0)"
       )
-      .text((d) => d);
+      .text((d) => d + "%");
 
     //data arcs
     const arcs = svg
