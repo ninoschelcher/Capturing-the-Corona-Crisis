@@ -582,18 +582,13 @@
         />
       </g>
     </svg>
-    <CircularChart />
   </section>
 </template>
 
 <script>
-import CircularChart from "./CircularChart.vue";
-
 export default {
   name: "IntroPage",
-  components: {
-    CircularChart,
-  },
+  components: {},
   methods: {
     removeContent: () => {
       document.querySelector("h1").style.opacity = "0";
