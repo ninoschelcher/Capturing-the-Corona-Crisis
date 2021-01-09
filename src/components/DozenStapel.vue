@@ -111,8 +111,8 @@ export default {
 }
 #boxmountain #top {
   position: relative;
-  right: -150px;
-  top: -8px;
+  right: 40px;
+  top: 8px;
 }
 #boxes {
   margin-left: -100px;
@@ -147,7 +147,7 @@ export default {
 
 #boxes p:first-of-type {
   top: 1770px;
-  left: 650px;
+  left: 450px;
 }
 
 #boxes p:nth-of-type(2) {
@@ -218,7 +218,7 @@ export default {
     left: 420px;
   }
   #boxes p:nth-of-type(5) {
-    left: 0px;
+    left: 350px;
   }
 
   #boxes p:nth-of-type(6) {
