@@ -20,3 +20,7 @@ html,
 body {
     font-family: 'sofia-pro';
 }
+
+#boxes::-webkit-scrollbar {
+    display: none;
+}

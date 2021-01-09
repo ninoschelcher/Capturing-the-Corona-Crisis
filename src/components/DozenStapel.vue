@@ -106,9 +106,6 @@ export default {
   position: relative;
   overflow-x: hidden;
 }
-#boxmountain::-webkit-scrollbar {
-  display: none;
-}
 #boxmountain #top {
   position: relative;
   right: 40px;
