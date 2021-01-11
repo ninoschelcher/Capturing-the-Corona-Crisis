@@ -687,6 +687,57 @@ export default {
   opacity: 0;
 }
 
+#Ellipse_19,
+#Ellipse_15 {
+  animation: levitateblobs 8s infinite alternate;
+}
+#Ellipse_18,
+#Ellipse_14 {
+  animation: levitateblobs2 8s infinite alternate;
+}
+
+#Ellipse_13,
+#Ellipse_16 {
+  animation: levitateblobs3 8s infinite alternate;
+}
+
+@keyframes levitateblobs {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(5px) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(360deg) translateX(5px) rotate(-360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translateX(5px) rotate(0deg);
+  }
+}
+
+@keyframes levitateblobs2 {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(5px) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(360deg) translateY(5px) rotate(-360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translateY(5px) rotate(0deg);
+  }
+}
+
+@keyframes levitateblobs3 {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(8px) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(360deg) translateX(8px) rotate(-360deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg) translateY(8px) rotate(0deg);
+  }
+}
+
 @keyframes dashed-line {
   from {
     stroke-dashoffset: 3000;
