@@ -119,6 +119,10 @@ export default {
 }
 #boxmountain p {
   text-align: center;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 #boxmountain p img {
   max-width: 80%;
