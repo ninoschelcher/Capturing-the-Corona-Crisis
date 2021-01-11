@@ -137,9 +137,11 @@
             />
           </defs>
           <path
+            fill="url(#linear-gradient)"
             id="Path_85"
             data-name="Path 85"
-            d="M1095.58,614.54c46.53,16.41,210-15.24,187.83,38.34s-61.79,31.84-108.15,49.71-166.55,10.46-166.55-21.53S1049.06,598.12,1095.58,614.54Z"
+            d="
+          M1095.58,614.54c46.53,16.41,210-15.24,187.83,38.34s-61.79,31.84-108.15,49.71-166.55,10.46-166.55-21.53S1049.06,598.12,1095.58,614.54Z"
             transform="translate(-152.65 -330.03)"
             style="fill: url(#linear-gradient)"
           />
@@ -600,6 +602,7 @@ export default {
   components: {},
   methods: {
     removeContent: function () {
+      const htmlElement = document.querySelector("html");
       const x = window.matchMedia("(max-width: 1440px)");
       const body = document.querySelector("body");
       const title = document.querySelector("h1");
@@ -611,6 +614,7 @@ export default {
       title.style.left = "-1050px";
       computerillu.style.opacity = "0";
       webcam.style.top = "750px";
+      firstAnimation.play().then(() => firstAnimation.pause());
 
       setTimeout(function () {
         title.style.opacity = "0";
@@ -628,6 +632,7 @@ export default {
         }
 
         body.style.overflowY = "visible";
+        htmlElement.classList.add("show");
       });
     },
   },
@@ -689,16 +694,16 @@ export default {
 
 #Ellipse_19,
 #Ellipse_15 {
-  animation: levitateblobs 8s infinite alternate;
+  animation: levitateblobs 8s infinite;
 }
 #Ellipse_18,
 #Ellipse_14 {
-  animation: levitateblobs2 8s infinite alternate;
+  animation: levitateblobs2 8s infinite;
 }
 
 #Ellipse_13,
 #Ellipse_16 {
-  animation: levitateblobs3 8s infinite alternate;
+  animation: levitateblobs3 8s infinite;
 }
 
 @keyframes levitateblobs {
@@ -770,7 +775,7 @@ export default {
   width: 100% !important;
   height: auto !important;
   position: absolute;
-  top: 55%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -794,6 +799,10 @@ export default {
     max-width: 25%;
     top: 340px;
     left: 370px;
+  }
+
+  .video-container video {
+    top: 50%;
   }
 }
 </style>
