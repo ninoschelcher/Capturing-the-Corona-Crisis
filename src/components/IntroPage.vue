@@ -644,7 +644,7 @@ export default {
   width: 100% !important;
   height: auto !important;
   position: absolute;
-  top: 40%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
