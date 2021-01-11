@@ -8,6 +8,10 @@
     src: url(../fonts/Mont-HeavyDEMO.otf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 *,
 ::before,
 ::after {
@@ -16,12 +20,15 @@
     box-sizing: border-box;
 }
 
-html,
 body {
     font-family: 'sofia-pro';
-    scroll-behavior: smooth;
+    overflow-y: hidden;
 }
 
-#boxes::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
+}
+
+::-webkit-scrollbar.show {
+    display: block;
 }
