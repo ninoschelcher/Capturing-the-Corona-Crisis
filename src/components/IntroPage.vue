@@ -586,7 +586,11 @@
         </g>
       </svg>
     </div>
-    <div></div>
+    <div class="video-container">
+      <video id="animation1">
+        <source src="../../public/assets/testmp4.mp4" type="video/mp4" />
+      </video>
+    </div>
   </section>
 </template>
 
@@ -594,34 +598,58 @@
 export default {
   name: "IntroPage",
   components: {},
+  mounted() {
+    console.log(this.showvideo);
+  },
   methods: {
-    removeContent: () => {
-      const x = window.matchMedia("(max-width: 1440px)");
+    removeContent: function () {
+      // if (x.matches) {
+      //     window.scrollBy(0, 650);
+      //   } else {
+      //     window.scrollBy(0, 900);
+      //   }
+      // const x = window.matchMedia("(max-width: 1440px)");
 
+      console.log(this.showvideo);
       document.querySelector("h1").style.left = "-1050px";
       document.getElementById("Layer_10").style.opacity = "0";
       document.getElementById("webcam").style.top = "750px";
 
-      setTimeout(() => {
+      setTimeout(function () {
         document.querySelector("h1").style.opacity = "0";
         document.getElementById("Layer_10").style.opacity = "0";
         document.getElementById("webcam").style.opacity = "0";
-
-        if (x.matches) {
-          window.scrollBy(0, 650);
-        } else {
-          window.scrollBy(0, 900);
-        }
-      }, 2000);
+        document.querySelector(".video-container").style.opacity = "1";
+        document.getElementById("animation1").play();
+      }, 1500);
     },
   },
 };
 </script>
 
 <style>
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  z-index: -1;
+}
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  width: 100% !important;
+  height: auto !important;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 #intro {
   height: 100vh;
-  padding-left: 4em;
   overflow: hidden;
   transition: 0.5s opacity;
 }
@@ -632,7 +660,7 @@ export default {
   transform: translateY(80%);
   transition: all 1.5s;
   position: relative;
-  left: 0;
+  left: 100px;
 }
 #intro #webcam {
   width: 75%;
@@ -704,9 +732,9 @@ export default {
     font-family: "Mont Heavy";
     font-size: 3.5em;
     max-width: 55%;
-    transform: translateY(40%);
+    transform: translateY(55%);
     transition: all 1.5s;
-    left: 0;
+    left: 70px;
   }
   #circularsection {
     transform: translateY(2%);
