@@ -591,25 +591,13 @@ export default {
   components: {},
   methods: {
     removeContent: () => {
-      document.querySelector("h1").style.opacity = "0";
-      const computerlines = document.getElementsByClassName("computerlines");
-      computerlines.forEach((line) => (line.style.opacity = "0"));
+      document.querySelector("h1").style.left = "-1050px";
+      document.getElementById("Layer_10").style.opacity = "0";
+      document.getElementById("webcam").style.top = "750px";
 
-      setTimeout(() => {
-        document.getElementById("webcam").classList.add("zoomed");
-        document.querySelector("h1").style.display = "none";
-        const computerlines = document.getElementsByClassName("computerlines");
-        computerlines.forEach((line) => (line.style.visibility = "hidden"));
-
-        setTimeout(() => {
-          document.getElementById("webcam").style.opacity = "0";
-          document.getElementById("webcam").style.visibility = "hidden";
-          document.getElementById("webcam").style.display = "none";
-          document.getElementById("circularsection").style.visibility =
-            "visible";
-          document.getElementById("circularsection").style.opacity = "1";
-        }, 5000);
-      }, 2000);
+      // setTimeout(() => {
+      //   window.scrollBy(0, 900);
+      // }, 2000);
     },
   },
 };
@@ -620,13 +608,16 @@ export default {
   height: 100vh;
   padding-left: 4em;
   overflow: hidden;
+  transition: 0.5s opacity;
 }
 #intro h1 {
   font-family: "Mont Heavy";
   font-size: 4em;
   max-width: 55%;
   transform: translateY(80%);
-  transition: 0.5s opacity;
+  transition: all 1.5s;
+  position: relative;
+  left: 0;
 }
 #intro #webcam {
   width: 75%;
