@@ -13,6 +13,9 @@ export default {
     IntroPage,
     DozenStapel,
   },
+  created() {
+    window.scrollTo(0, 0);
+  },
 };
 </script>
 

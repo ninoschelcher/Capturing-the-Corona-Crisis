@@ -8,7 +8,7 @@
       </p>
       <p class="milestone">
         Met een gemiddelde dooshoogte van 80cm en je deze op elkaar stapelt is
-        net zo hoog als 40 eiffeltorens op elkaar!
+        dit net zo hoog als 40 eiffeltorens op elkaar!
       </p>
       <p class="milestone">Denk je dat je er al bijna bent?</p>
       <p class="milestone">
@@ -16,17 +16,17 @@
         pakketjes mee kunnen. Wel zonde eigenlijk..
       </p>
       <p class="milestone">
-        Het aantal vastgestelde corona besmettingen was op 1 Januari 2021 óók
+        Het aantal vastgestelde corona besmettingen was op 1 januari 2021 óók
         800.000
       </p>
       <p class="milestone">
-        De 6 nullen inmiddels al bereikt, het is wel een grote stapel zo..
+        De 6 nullen zijn inmiddels al bereikt, het is wel een grote stapel zo..
       </p>
       <p class="milestone">
-        Zoveel pakketjes moest PostNL nog verwerken per dag begin December.
+        Zoveel pakketjes moest PostNL nog verwerken per dag begin december.
       </p>
       <p class="milestone">
-        Als je de gemiddelde lengte van een kartondoos neemt (24cm) en deze
+        Als je de gemiddelde lengte van een doos karton neemt (24cm) en deze
         achter elkaar legt kom je van Utrecht naar Bremen met dit aantal dozen.
       </p>
       <p class="milestone">Het einde is bijna in zicht!</p>
@@ -132,6 +132,7 @@ export default {
 .smallscreen {
   display: none;
 }
+
 .milestone {
   position: absolute;
   width: 80vw;
@@ -167,7 +168,7 @@ export default {
 }
 #boxes p:nth-of-type(5) {
   top: 28230px;
-  left: 550px;
+  left: 530px;
 }
 
 #boxes p:nth-of-type(6) {
@@ -177,7 +178,7 @@ export default {
 
 #boxes p:nth-of-type(7) {
   top: 42370px;
-  left: 520px;
+  left: 500px;
 }
 #boxes p:nth-of-type(8) {
   top: 49400px;
@@ -189,7 +190,7 @@ export default {
 }
 #boxes p:nth-of-type(10) {
   top: 60000px;
-  left: 600px;
+  left: 610px;
 }
 @media only screen and (max-width: 1440px) {
   p img {
@@ -219,15 +220,15 @@ export default {
     left: 420px;
   }
   #boxes p:nth-of-type(5) {
-    left: 350px;
+    left: 340px;
   }
 
   #boxes p:nth-of-type(6) {
-    left: 460px;
+    left: 470px;
   }
 
   #boxes p:nth-of-type(7) {
-    left: 400px;
+    left: 380px;
   }
   #boxes p:nth-of-type(8) {
     left: 420px;
@@ -236,7 +237,7 @@ export default {
     left: 420px;
   }
   #boxes p:nth-of-type(10) {
-    left: 420px;
+    left: 380px;
   }
 }
 </style>

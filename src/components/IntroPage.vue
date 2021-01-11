@@ -635,26 +635,6 @@ export default {
 </script>
 
 <style>
-.video-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  opacity: 0;
-  z-index: -1;
-}
-.video-container video {
-  min-width: 100%;
-  min-height: 100%;
-  width: 100% !important;
-  height: auto !important;
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 #intro {
   height: 100vh;
   overflow: hidden;
@@ -692,8 +672,11 @@ export default {
   left: 450px;
 }
 
-.computerlines {
-  transition: 0.5s opacity;
+.dashed-path {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: dashed-line 5s linear;
+  -webkit-animation-fill-mode: forwards;
 }
 
 #arrowhead {
@@ -702,13 +685,6 @@ export default {
   transition: 0.5s opacity;
   visibility: hidden;
   opacity: 0;
-}
-
-.dashed-path {
-  stroke-dasharray: 3000;
-  stroke-dashoffset: 3000;
-  animation: dashed-line 5s linear;
-  -webkit-animation-fill-mode: forwards;
 }
 
 @keyframes dashed-line {
@@ -727,41 +703,44 @@ export default {
   }
 }
 
-#circularsection {
-  visibility: hidden;
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
   opacity: 0;
-  transition: 1.5s all;
-  transform: translateY(10%);
+  z-index: -1;
+}
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  width: 100% !important;
+  height: auto !important;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width: 1440px) {
   #intro h1 {
-    font-family: "Mont Heavy";
     font-size: 3.5em;
-    max-width: 55%;
     transform: translateY(55%);
-    transition: all 1.5s;
     left: 70px;
-  }
-  #circularsection {
-    transform: translateY(2%);
   }
   #intro #webcam {
     width: 65%;
-    text-align: right;
-    position: relative;
     top: 80px;
     left: 390px;
   }
   #intro #webcam.zoomed {
     top: 390px;
     left: -440px;
-    transform: scale(3);
-    overflow: hidden;
   }
   #Layer_10 {
     max-width: 25%;
-    position: absolute;
     top: 340px;
     left: 370px;
   }
