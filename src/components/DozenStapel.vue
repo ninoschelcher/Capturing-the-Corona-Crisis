@@ -247,7 +247,7 @@ export default {
   top: 52970px;
 }
 #milestones p:nth-of-type(10) {
-  top: 60000px;
+  top: 59940px;
 }
 
 #animation2 {

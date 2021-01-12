@@ -600,11 +600,39 @@
 export default {
   name: "IntroPage",
   components: {},
+  mounted() {
+    const firstAnimation = document.getElementById("animation1");
+    const htmlElement = document.querySelector("html");
+    const x = window.matchMedia("(max-width: 1440px)");
+    const body = document.querySelector("body");
+
+    if (firstAnimation) {
+      window.addEventListener("keydown", (event) => {
+        const key = event.which || event.keyCode;
+
+        if (key === 32) {
+          event.preventDefault();
+
+          firstAnimation.paused
+            ? firstAnimation.play()
+            : firstAnimation.pause();
+        }
+      });
+    }
+
+    firstAnimation.addEventListener("ended", () => {
+      if (x.matches) {
+        window.scrollBy(0, 1050);
+      } else {
+        window.scrollBy(0, 1300);
+      }
+
+      body.style.overflowY = "visible";
+      htmlElement.classList.add("show");
+    });
+  },
   methods: {
     removeContent: function () {
-      const htmlElement = document.querySelector("html");
-      const x = window.matchMedia("(max-width: 1440px)");
-      const body = document.querySelector("body");
       const title = document.querySelector("h1");
       const computerillu = document.getElementById("Layer_10");
       const webcam = document.getElementById("webcam");
@@ -623,17 +651,6 @@ export default {
         videocontainer.style.opacity = "1";
         firstAnimation.play();
       }, 1500);
-
-      firstAnimation.addEventListener("ended", () => {
-        if (x.matches) {
-          window.scrollBy(0, 1050);
-        } else {
-          window.scrollBy(0, 1300);
-        }
-
-        body.style.overflowY = "visible";
-        htmlElement.classList.add("show");
-      });
     },
   },
 };
