@@ -590,7 +590,7 @@
     </div>
     <div class="video-container">
       <video id="animation1">
-        <source src="../../public/assets/testmp4.mp4" type="video/mp4" />
+        <source src="../../public/assets/animatie1.mp4" type="video/mp4" />
       </video>
     </div>
   </section>
@@ -626,9 +626,9 @@ export default {
 
       firstAnimation.addEventListener("ended", () => {
         if (x.matches) {
-          window.scrollBy(0, 650);
+          window.scrollBy(0, 1050);
         } else {
-          window.scrollBy(0, 900);
+          window.scrollBy(0, 1300);
         }
 
         body.style.overflowY = "visible";

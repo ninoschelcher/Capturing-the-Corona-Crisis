@@ -70,6 +70,13 @@
       </p>
     </div>
   </section>
+  <section id="animation2">
+    <div class="video-container2">
+      <video>
+        <source src="../../public/assets/animatie2.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -105,6 +112,7 @@ export default {
   display: flex;
   position: relative;
   overflow-x: hidden;
+  margin-top: 400px;
 }
 #boxmountain #top {
   position: relative;
@@ -192,6 +200,33 @@ export default {
   top: 60000px;
   left: 610px;
 }
+
+#animation2 {
+  position: relative;
+  height: 100vh;
+}
+
+.video-container2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 1;
+  z-index: 9999;
+}
+.video-container2 video {
+  min-width: 100%;
+  min-height: 100%;
+  width: 100% !important;
+  height: auto !important;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media only screen and (max-width: 1440px) {
   p img {
     max-width: 70%;
