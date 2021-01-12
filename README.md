@@ -1,24 +1,21 @@
-# capturing-the-corona-crisis
+# Capturing the Corona Crisis
+Voor in60seconds & Getting The Picture hebben wij de afgelopen 5 weken gewerkt aan een concept om de corona crisis beter in beeld te brengen doormiddel van de informatie die het CBS aanbied op hun website.
 
-## Project setup
-```
-npm install
-```
+## Het Concept
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Framework of geen Framework
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Data
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Installatie 💻
+Er zijn een paar stappen nodig om het project op je eigen computer te krijgen.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Clone project
+- Kloon dit project op je lokale machine door `$ git clone https://github.com/ninoschelcher/frontend-applications.git` in te typen.
+- Ga naar het mapje `$ cd frontend-applications `
+
+### Install packages
+- Installeer alle nodige pakketjes `$ npm i`
+
+### Run project
+- Typ `$ npm run serve` om het programma te starten.
