@@ -178,7 +178,6 @@ export default {
 }
 #boxmountain #top {
   position: relative;
-  right: 40px;
   top: 6px;
 }
 #boxes {
