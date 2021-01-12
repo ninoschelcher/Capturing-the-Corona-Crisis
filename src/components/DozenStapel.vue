@@ -203,7 +203,7 @@ export default {
 
 #animation2 {
   position: relative;
-  height: 100vh;
+  height: 1072px;
 }
 
 .video-container2 {
@@ -222,7 +222,7 @@ export default {
   width: 100% !important;
   height: auto !important;
   position: absolute;
-  top: 48%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -230,6 +230,10 @@ export default {
 @media only screen and (max-width: 1440px) {
   p img {
     max-width: 70%;
+  }
+
+  #animation2 {
+    height: 802px;
   }
 
   #boxmountain #top {
