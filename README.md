@@ -1,3 +1,5 @@
+![thumbnail project](https://github.com/ninoschelcher/Capturing-the-Corona-Crisis/blob/main/public/assets/thumbnail.png)
+
 # Capturing the Corona Crisis
 Voor In 60 Seconds & Getting The Picture hebben wij de afgelopen 5 weken gewerkt aan een concept om de coronacrisis beter in kaart te brengen doormiddel van de informatie die het CBS aanbied op hun website. Deze data hebben wij gebruikt als uitgangspunt om tot een duidelijk onderwerp te komen voor ons concept.
 
