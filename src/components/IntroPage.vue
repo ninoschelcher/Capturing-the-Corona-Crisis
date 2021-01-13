@@ -792,8 +792,9 @@ export default {
   width: 100% !important;
   height: auto !important;
   position: absolute;
-  top: 48%;
+  top: 55%;
   left: 50%;
+  object-fit: cover;
   transform: translate(-50%, -50%);
 }
 
@@ -819,7 +820,7 @@ export default {
   }
 
   .video-container video {
-    top: 50%;
+    top: 52.5%;
   }
 }
 </style>

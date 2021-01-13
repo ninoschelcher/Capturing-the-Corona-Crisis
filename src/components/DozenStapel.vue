@@ -87,6 +87,10 @@
     </div>
     <div id="milestones">
       <p data-aos="fade-right" class="milestone">
+        Nou, laten we maar kijken hoe groot die stapel is..
+      </p>
+      <div id="scrollmile" data-aos="fade-right"></div>
+      <p data-aos="fade-right" class="milestone">
         Het aantal mensen dat in de bedrijfstak zorg en welzijn werkt in
         Amsterdam (2020)
       </p>
@@ -119,14 +123,15 @@
         Het einde is bijna in zicht!
       </p>
       <p data-aos="fade-right" class="milestone">
-        Dit aantal staat gelijk aan als 10% van de inwoners in Nederland een
-        pakketje zou bestellen.
+        Het aantal pakketjes dat PostNL elke dag moet verwerken in December
+        2020.
       </p>
     </div>
   </section>
   <section id="animation2">
+    <button id="cartrigger" v-on:click="startAnimation">Rijden maar!</button>
     <div class="video-container2">
-      <video>
+      <video id="vananimation">
         <source src="../../public/assets/animatie2.mp4" type="video/mp4" />
       </video>
     </div>
@@ -139,6 +144,16 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 export default {
   name: "DozenStapel",
+  methods: {
+    startAnimation: function () {
+      const secondAnimation = document.getElementById("vananimation");
+      const animationtrigger = document.getElementById("cartrigger");
+      const body = document.querySelector("body");
+      secondAnimation.play();
+      animationtrigger.style.opacity = "0";
+      body.style.overflowY = "hidden";
+    },
+  },
   mounted() {
     // create svg element
     const svg = d3
@@ -182,7 +197,7 @@ export default {
 }
 #boxes {
   margin-left: 50px;
-  height: 60160px;
+  height: 60120px;
   position: relative;
   overflow: hidden;
 }
@@ -215,44 +230,88 @@ export default {
 }
 
 #milestones p:first-of-type {
+  top: 50px;
+}
+
+#milestones p:nth-of-type(2) {
   top: 1770px;
 }
 
-#milestonesp:nth-of-type(2) {
+#milestones p:nth-of-type(3) {
   top: 5300px;
 }
 
-#milestones p:nth-of-type(3) {
+#milestones p:nth-of-type(4) {
   top: 10610px;
 }
 
-#milestones p:nth-of-type(4) {
+#milestones p:nth-of-type(5) {
   top: 21170px;
 }
-#milestones p:nth-of-type(5) {
+#milestones p:nth-of-type(6) {
   top: 28230px;
 }
 
-#milestones p:nth-of-type(6) {
+#milestones p:nth-of-type(7) {
   top: 35300px;
 }
 
-#milestones p:nth-of-type(7) {
+#milestones p:nth-of-type(8) {
   top: 42370px;
 }
-#milestones p:nth-of-type(8) {
+#milestones p:nth-of-type(9) {
   top: 49400px;
 }
-#milestones p:nth-of-type(9) {
+#milestones p:nth-of-type(10) {
   top: 52970px;
 }
-#milestones p:nth-of-type(10) {
+#milestones p:nth-of-type(11) {
   top: 59940px;
 }
 
 #animation2 {
   position: relative;
-  height: 1072px;
+  height: 100vh;
+}
+
+#scrollmile,
+#scrollmile:after {
+  position: absolute;
+  left: 20%;
+  top: 100px;
+}
+
+#scrollmile {
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 2px #000;
+  border-radius: 25px;
+}
+
+#scrollmile:after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #000;
+  margin-left: 8px;
+  top: 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
 }
 
 .video-container2 {
@@ -263,7 +322,7 @@ export default {
   height: 100%;
   overflow: hidden;
   opacity: 1;
-  z-index: 9999;
+  z-index: 1;
 }
 .video-container2 video {
   min-width: 100%;
@@ -273,9 +332,42 @@ export default {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-47%, -50%);
 }
 
+#cartrigger {
+  position: absolute;
+  z-index: 999;
+  transition: 0.5s opacity;
+  animation: wiggle 2.5s infinite;
+  left: 65%;
+  top: 35%;
+  background: none;
+  border: none;
+  font-family: "sofia-pro";
+  font-weight: bold;
+  font-size: 3em;
+  cursor: pointer;
+  outline: none;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(5deg);
+  }
+  95% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 @media only screen and (max-width: 1440px) {
   p img {
     max-width: 70%;
@@ -297,6 +389,11 @@ export default {
     left: 120px;
     font-size: 1.7em;
     max-width: 60%;
+  }
+
+  #scrollmile,
+  #scrollmile:after {
+    left: 10%;
   }
 }
 </style>
