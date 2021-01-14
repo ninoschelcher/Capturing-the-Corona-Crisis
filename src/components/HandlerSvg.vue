@@ -899,14 +899,14 @@ export default {
 
 @media only screen and (max-width: 1440px) {
   #intro #webcam {
-    width: 65%;
-    top: 80px;
-    left: 390px;
+    width: 70%;
+    top: 120px;
+    left: 370px;
   }
   #Layer_10 {
     max-width: 25%;
-    top: 340px;
-    left: 370px;
+    top: 360px;
+    left: 390px;
   }
 }
 </style>
