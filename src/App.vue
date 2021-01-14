@@ -14,7 +14,13 @@ export default {
     DozenStapel,
   },
   created() {
-    window.scrollTo(0, 0);
+    window.addEventListener("load", () => {
+      window.scroll({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    });
   },
 };
 </script>
