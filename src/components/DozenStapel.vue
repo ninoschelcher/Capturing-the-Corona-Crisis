@@ -115,6 +115,7 @@
           Het aantal vastgestelde corona besmettingen was op 1 januari 2021 óók
           800.000.
         </p>
+        <img src="../../public/assets/virusgif.gif" alt="floating virus" />
       </div>
       <div class="milestone" data-aos="fade-right">
         <p>
@@ -126,12 +127,22 @@
         <p>
           Zoveel pakketjes moest PostNL nog verwerken per dag begin december.
         </p>
+        <img
+          src="../../public/assets/24Uur.gif"
+          alt="24uur"
+          id="begindecember"
+        />
       </div>
       <div class="milestone" data-aos="fade-right">
         <p>
           Met een dooslengte van 40cm kan je van Utrecht naar Bremen met dit
           aantal dozen!
         </p>
+        <img
+          src="../../public/assets/utrechbremen.gif"
+          alt="utrecht naar bremen"
+          id="utrechtroute"
+        />
       </div>
       <div class="milestone" data-aos="fade-right">
         <p>Het einde is bijna in zicht!</p>
@@ -161,6 +172,7 @@ import * as d3 from "d3";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import HandlerSvg from "./HandlerSvg.vue";
+
 export default {
   name: "DozenStapel",
   components: {
@@ -229,6 +241,11 @@ export default {
   margin-right: 0;
 }
 
+#boxmountain p:not(#top) img {
+  vertical-align: middle;
+  position: relative;
+}
+
 .smallscreen {
   display: none;
 }
@@ -251,7 +268,8 @@ export default {
 
 #milestones img {
   max-width: 60%;
-  margin-left: 60px;
+  margin-left: 80px;
+  margin-top: 20px;
 }
 
 #milestones div:first-of-type {
@@ -294,6 +312,16 @@ export default {
   top: 59940px;
 }
 
+#utrechtroute {
+  max-width: 100% !important;
+  margin-left: 0 !important;
+}
+
+#begindecember {
+  max-width: 80% !important;
+  margin-left: 30px !important;
+  margin-top: 0px !important;
+}
 #animation2 {
   position: relative;
   height: 100vh;
