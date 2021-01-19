@@ -342,7 +342,7 @@ export default {
 
 .wolken {
   position: absolute;
-  max-width: 1290px !important;
+  max-width: 1010px !important;
   overflow: hidden;
   margin-left: -65px !important;
   z-index: -1;
