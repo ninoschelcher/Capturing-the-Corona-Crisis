@@ -86,8 +86,30 @@
       </div>
     </div>
     <div id="milestones">
+      <img src="../../public/assets/vogel.gif" alt="bird" id="bird1" />
+      <img src="../../public/assets/vogel.gif" alt="bird" id="bird2" />
+      <img
+        src="../../public/assets/wolken.gif"
+        alt="wolken"
+        id="wolken1"
+        class="wolken"
+      />
+      <img
+        src="../../public/assets/wolken.gif"
+        alt="wolken"
+        id="wolken2"
+        class="wolken"
+      />
+      <img
+        src="../../public/assets/wolken.gif"
+        alt="wolken"
+        id="wolken3"
+        class="wolken"
+      />
+
       <p data-aos="fade-right" class="milestone">
-        Nou, laten we maar kijken hoe groot die stapel is..
+        Nou, laten we maar kijken hoeveel pakketjes postbedrijven per dag moeten
+        verwerken..
       </p>
       <div id="scrollmile" data-aos="fade-right"></div>
       <div class="milestone" data-aos="fade-right">
@@ -101,7 +123,6 @@
           Met een dooshoogte van 80cm kan je 40 Eiffeltorens stapelen met dit
           aantal dozen!
         </p>
-        <img src="../../public/assets/Eifeltoren.gif" alt="eifeltoren" />
       </div>
       <div class="milestone" data-aos="fade-right">
         <p>Denk je dat je er al bijna bent?</p>
@@ -127,22 +148,12 @@
         <p>
           Zoveel pakketjes moest PostNL nog verwerken per dag begin december.
         </p>
-        <img
-          src="../../public/assets/24Uur.gif"
-          alt="24uur"
-          id="begindecember"
-        />
       </div>
       <div class="milestone" data-aos="fade-right">
         <p>
-          Met een dooslengte van 40cm kan je van Utrecht naar Bremen met dit
-          aantal dozen!
+          Met een dooslengte van 40cm kan je van Groningen naar Maastricht met
+          dit aantal dozen!
         </p>
-        <img
-          src="../../public/assets/utrechbremen.gif"
-          alt="utrecht naar bremen"
-          id="utrechtroute"
-        />
       </div>
       <div class="milestone" data-aos="fade-right">
         <p>Het einde is bijna in zicht!</p>
@@ -253,7 +264,6 @@ export default {
 #milestones {
   position: relative;
   width: 50%;
-  overflow: hidden;
 }
 
 .milestone {
@@ -312,16 +322,44 @@ export default {
   top: 59940px;
 }
 
-#utrechtroute {
-  max-width: 100% !important;
-  margin-left: 0 !important;
+#bird1 {
+  position: absolute;
+  top: 13945px;
+  max-width: 1200px !important;
+  left: -330px;
+  overflow: hidden;
+  z-index: -1;
 }
 
-#begindecember {
-  max-width: 80% !important;
-  margin-left: 30px !important;
-  margin-top: 0px !important;
+#bird2 {
+  position: absolute;
+  top: 45000px;
+  max-width: 1200px !important;
+  left: -330px;
+  overflow: hidden;
+  z-index: -1;
 }
+
+.wolken {
+  position: absolute;
+  max-width: 1290px !important;
+  overflow: hidden;
+  margin-left: -65px !important;
+  z-index: -1;
+}
+
+#wolken1 {
+  top: 500px;
+}
+
+#wolken2 {
+  top: 30000px;
+}
+
+#wolken3 {
+  top: 40000px;
+}
+
 #animation2 {
   position: relative;
   height: 100vh;
@@ -427,6 +465,15 @@ export default {
   #scrollmile,
   #scrollmile:after {
     left: 10%;
+  }
+
+  #bird {
+    position: absolute;
+    top: 13885px;
+    max-width: 910px !important;
+    left: -275px;
+    overflow: hidden;
+    z-index: -1;
   }
 }
 </style>
