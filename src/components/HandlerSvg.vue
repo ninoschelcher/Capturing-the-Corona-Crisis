@@ -1361,7 +1361,7 @@ export default {
 
   #eindscherm {
     top: 60px;
-    left: 331px;
+    left: 330px;
   }
 }
 </style>
