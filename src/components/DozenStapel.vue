@@ -175,6 +175,13 @@
         <source src="../../public/assets/animatie2.mp4" type="video/mp4" />
       </video>
     </div>
+    <div id="endingscreen">
+      <div id="titles">
+        <h2>Gerealiseerd door</h2>
+        <h1>Joshua van 't Veer, Laura Goedkoop &amp; Nino Schelcher</h1>
+      </div>
+      <HandlerSvg name="eindscherm" />
+    </div>
   </section>
 </template>
 
@@ -193,8 +200,20 @@ export default {
     startAnimation: function () {
       const secondAnimation = document.getElementById("vananimation");
       const animationtrigger = document.getElementById("cartrigger");
+      const videoContainer = document.querySelector(".video-container2");
+      const endingScreen = document.getElementById("endingscreen");
+
       secondAnimation.play();
       animationtrigger.style.opacity = "0";
+      animationtrigger.style.display = "none";
+
+      secondAnimation.addEventListener("ended", () => {
+        videoContainer.style.opacity = "0";
+        videoContainer.style.zIndex = "-1";
+
+        endingScreen.style.opacity = "1";
+        endingScreen.style.display = "block";
+      });
     },
   },
   mounted() {
@@ -363,6 +382,7 @@ export default {
 #animation2 {
   position: relative;
   height: 100vh;
+  background-color: #fff;
 }
 
 #scrollmile,
@@ -424,6 +444,7 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: #fff;
 }
 
 #cartrigger {
@@ -437,6 +458,28 @@ export default {
   font-size: 3em;
   cursor: pointer;
   outline: none;
+}
+
+#endingscreen {
+  opacity: 0;
+  height: 100vh;
+  overflow: hidden;
+  transition: 1s opacity;
+}
+
+#titles {
+  transform: translate(5%, 45%);
+  font-family: "Mont Heavy";
+}
+
+#endingscreen h1 {
+  font-size: 4em;
+  max-width: 50%;
+}
+
+#endingscreen h2 {
+  font-size: 3em;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -474,6 +517,13 @@ export default {
     left: -275px;
     overflow: hidden;
     z-index: -1;
+  }
+
+  #endingscreen h2 {
+    font-size: 2em;
+  }
+  #endingscreen h1 {
+    font-size: 3.5em;
   }
 }
 </style>
