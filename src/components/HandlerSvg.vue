@@ -1024,93 +1024,12 @@
         style="
           isolation: isolate;
           font-size: 39px;
-          font-family: SofiaPro-Medium, Sofia Pro;
+          font-family: sofia-pro;
           font-weight: 500;
           letter-spacing: -0.010003505608974358em;
         "
       >
-        N
-      </text>
-      <text
-        transform="translate(848.94 233.81)"
-        style="
-          isolation: isolate;
-          font-size: 39px;
-          font-family: SofiaPro-Medium, Sofia Pro;
-          font-weight: 500;
-        "
-      >
-        og i
-      </text>
-      <text
-        transform="translate(914.42 233.81)"
-        style="
-          isolation: isolate;
-          font-size: 39px;
-          font-family: SofiaPro-Medium, Sofia Pro;
-          font-weight: 500;
-          letter-spacing: -0.006998697916666667em;
-        "
-      >
-        e
-      </text>
-      <text
-        transform="translate(936.03 233.81)"
-        style="
-          isolation: isolate;
-          font-size: 39px;
-          font-family: SofiaPro-Medium, Sofia Pro;
-          font-weight: 500;
-          letter-spacing: -0.0030048076923076925em;
-        "
-      >
-        t
-      </text>
-      <text
-        transform="translate(948.74 233.81)"
-        style="
-          isolation: isolate;
-          font-size: 39px;
-          font-family: SofiaPro-Medium, Sofia Pro;
-          font-weight: 500;
-        "
-      >
-        s be
-      </text>
-      <text
-        transform="translate(1021.28 233.81)"
-        style="
-          isolation: isolate;
-          font-size: 39px;
-          font-family: SofiaPro-Medium, Sofia Pro;
-          font-weight: 500;
-          letter-spacing: -0.001001602564102564em;
-        "
-      >
-        s
-      </text>
-      <text
-        transform="translate(1038.48 233.81)"
-        style="
-          isolation: isolate;
-          font-size: 39px;
-          font-family: SofiaPro-Medium, Sofia Pro;
-          font-weight: 500;
-          letter-spacing: -0.009001903044871794em;
-        "
-      >
-        t
-      </text>
-      <text
-        transform="translate(1050.96 233.81)"
-        style="
-          isolation: isolate;
-          font-size: 39px;
-          font-family: SofiaPro-Medium, Sofia Pro;
-          font-weight: 500;
-        "
-      >
-        ellen?
+        Nog iets bestellen?
       </text>
     </g>
     <line
