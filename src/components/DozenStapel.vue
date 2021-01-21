@@ -217,6 +217,21 @@ export default {
     },
   },
   mounted() {
+    const secondAnimation = document.getElementById("vananimation");
+
+    if (secondAnimation) {
+      window.addEventListener("keydown", (event) => {
+        const key = event.which || event.keyCode;
+
+        if (key === 32) {
+          event.preventDefault();
+
+          secondAnimation.paused
+            ? secondAnimation.play()
+            : secondAnimation.pause();
+        }
+      });
+    }
     // create svg element
     const svg = d3
       .select("#boxmountain > div")
